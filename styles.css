@@ -3,9 +3,20 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    background-color: #0d1f30;
     /* width: 100vw; */
 }
+::-webkit-scrollbar {
+    display:none;
+  }
+  
+::-webkit-scrollbar-track {
+    display:none;
+  }
+  
+::-webkit-scrollbar-thumb {
+    display:none;
+  }
 #content{
     display: flex;
     flex-wrap: wrap;
@@ -31,23 +42,19 @@ h1{
     border: 3px solid white;
     max-height: 250px;
     width: 250px;
-    background-color: black;
+    background-color: #0d1f30;
     border-radius: 25px;
-    overflow-y: scroll;
+    overflow: auto;
+    margin: auto;
     
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     margin: 10px;
+    padding: 10px;
 }
 
 
 .card:hover{
-    background-color: maroon;
+    background-color:Teal;
     border-radius: 25px;
-    box-shadow: maroon;
     
 }
 .card::-webkit-scrollbar {
